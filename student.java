@@ -1,6 +1,8 @@
 
 class student{
 
+      System.out.println("welcome to java");
+
     String[] arr={"AjithKumar","venkat","vishnu"};
 
     int[] id={01,02,03};
@@ -25,6 +27,7 @@ class student{
 
        s.demo(Name);
 
+  System.out.println("Program end");
 
     }
 }
