@@ -1,3 +1,4 @@
+
 package j2ee;
 
 import java.sql.Connection;
@@ -13,7 +14,10 @@ public class StaticSelectType {
 
 	public static void main(String[] args) {
 		try {
+
+
 			//step1--load the driver
+
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 			//step2--create connection
@@ -48,6 +52,7 @@ public class StaticSelectType {
 			e.printStackTrace();
 		}
 
+System.out.println("JDBC Completed");
 	}
 
 }
